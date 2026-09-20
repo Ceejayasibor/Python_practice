@@ -2,10 +2,10 @@ from datetime import datetime
 from typing import Self
 
 
-'''
+
 def show_date() -> None:
     print('This is the current time: {}'.format(datetime.now()))
-#print(datetime.now())
+
 show_date()
 
 def greet(name: str) -> None:
@@ -18,7 +18,7 @@ def add(a: float, b: float) -> float:
 
 print(f'{add(7.2,5.4): .2f}') 
 
-print(f'{add(4.5, 2.3): .2f}')'''
+print(f'{add(4.5, 2.3): .2f}')
 
 
 class Students:

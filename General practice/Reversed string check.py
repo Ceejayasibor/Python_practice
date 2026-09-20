@@ -1,6 +1,7 @@
-word_1 = 'pots'
-word_2 = 'stop'
+word_1 = 'stop'
+word_2 = 'pots'
 def is_reverse(word_1, word_2):
+    '''
     if len(word_1) != len(word_2):
         return False
     i = 0
@@ -11,7 +12,12 @@ def is_reverse(word_1, word_2):
         i += 1
         j -= 1
     return True
+    if word_1 == word_2[::-1]:
+        return True
+    return False
 
 
 result = is_reverse(word_1, word_2)
-print(result)
+print(result)'''
+
+

@@ -1,4 +1,4 @@
-def cumulative_sum(k):
+def cumulative_sum(k) -> int:
     total = []
     start = 0
     for i in k:

@@ -1,4 +1,4 @@
-
+#Learning python classes and functions
 
 class Person:
     def __init__(self, name: str, age: int):
@@ -7,9 +7,13 @@ class Person:
     def __str__(self):
     	return f"{self.name} is {self.age} years old."
         
+    def greet(self):
+        return"{} is {} years old.".format(self.name, self.age)
+
 P1 = Person("Charleson", 25)
 
 print(P1)
+print(P1.greet())
 
 class person:
     def __init__(self, name, age):
